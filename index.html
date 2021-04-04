@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>リアルタイムフィルター</title>
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  <!-- jqueryで実装する場合 -->
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <h2>リアルタイムフィルター</h2>
+        <p>入力した文字を含まない要素は非表示となります</p>
+        <input type="text" class="input_text" placeholder="キーワードを入力してください">
+        <div class="exhibition">
+            <div class="filter_img">
+                <div class="contain_img">
+                    <img src="https://campic.net/wp-content/uploads/2017/02/14582425_556162404554022_486845495168204800_n.jpg" alt="camp">
+                </div>
+                <p class="keywords">キーワード</p>
+                <div class="keyword_list">
+                    <p>キャンプ</p>
+                    <p>きゃんぷ</p>
+                    <p>kyannpu</p>
+                </div>
+            </div>
+            <div class="filter_img">
+                <div class="contain_img">
+                    <img src="https://www.underpowermotors.com/wp-content/uploads/2019/07/h2sx-photo-1024x683.jpg" alt="motorcycle">
+                </div>
+                <p class="keywords">キーワード</p>
+                <div class="keyword_list">
+                    <p>バイク</p>
+                    <p>ばいく</p>
+                    <p>baiku</p>
+                </div>
+            </div>
+            <div class="filter_img">
+                <div class="contain_img">
+                    <img src="https://sngim37i.user.webaccel.jp/wp-content/uploads/2021/03/9d967e5de3832c8caf1f2e6c987872e1-695x460.jpg" alt="fishing">
+                </div>
+                <p class="keywords">キーワード</p>
+                <div class="keyword_list">
+                    <p>釣り</p>
+                    <p>つり</p>
+                    <p>turi</p>
+                </div>
+            </div>
+            <div class="filter_img">
+                <div class="contain_img">
+                    <img src="https://travel.watch.impress.co.jp/img/trw/docs/1213/626/00_l.jpg" alt="sake">
+                </div>
+                <p class="keywords">キーワード</p>
+                <div class="keyword_list">
+                    <p>お酒</p>
+                    <p>おさけ</p>
+                    <p>osake</p>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="main.js" charset="UTF-8"></script>
+    </body>
+</html>
